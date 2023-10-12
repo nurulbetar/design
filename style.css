@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 207, 164);
+}
+.container{
+    max-width: 600px;
+    margin: 0px auto;
+    border:1px solid rgb(29, 23, 23);
+    padding:30px 30px;
+    margin-top: 30px;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid blue;
+}
+
+.btn{
+    background-color: blue;
+    padding: 5px 10px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.deletebtn{
+    background-color: red;
+    padding: 5px 10px;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.singletask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+label{
+    display: block;
+    margin: 10px;
+}
+
+.form {
+	margin-bottom: 22.4px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.remind{
+    display: inline;
+    margin:10px;
+}
+
+.checkboxdiv{
+    margin: 10px;
+}
+.submit{
+    background: black;
+    color:#fff
+}
